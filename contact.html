@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <!-- USING THE BOOTSTRAP FEATURE OF THE 4.1-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <title>Hello, world!</title>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- <h1>Hello, world!</h1> -->
+        <!-- here , it is the nav bar, that has the search input and as well as the search button a the end or the right corner of our web page!! -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">iCoder</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/project.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <!-- so, when the About is clicked, it redirects
+                              to, the about.html  page 
+                            -->
+                        <a class="nav-link " href="/about.html">About</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Topics
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Web Development</a>
+                            <a class="dropdown-item" href="#">AI and ML</a>
+                            <a class="dropdown-item" href="#">Android and Flutter Development</a>
+                            <a class="dropdown-item" href="#">Introduction To Cyber Security</a>
+                            <a class="dropdown-item" href="#">Cloud Computing</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <!-- so, when the About is clicked, it redirects
+                              to, the about.html  page 
+                            -->
+                        <a class="nav-link" href="/contact.html">Contact Us</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li> -->
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search For a Language"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Explore Me</button>
+                </form>
+            </div>
+        </nav>
+
+
+
+        <!--
+             INCASE WE WANT THE MATTER FOLLOWED BY THE  IMAGE
+             SUCH THAT THE MATTER IS IN MIDDLE,
+              THE WE GO FOR THE FEATURE OF THE FLEX BOX HERE
+              !!
+        -->
+
+        <!--
+            INCASE WE WANT TO CHANGE, BY THE ORDER, OF THE IMAGES 
+            WHICH ARE FURTHER FOLLOWED BY THE MATTER
+            THEN WE USE THE CLASS AS THE ORDER BY!!!-- VERY IMPORTANT AND STYLISH FEATURE 
+        -->
+       <h1>Contact Us</h1>
+        <!--  ALERTS 
+         here the bootstrap framework, provides the user the alert componenet which as similar as 
+         that of the normal para but the background color could be also added
+         danger (red) success(green)  info(blue)  v
+        variou color component are also available Here !!!!
+     -->
+
+
+        <!-- TEXTS
+         the color of the ext could be also, choosen from the bootstrap framework as well
+        <p class="text-danger">.text-danger</p>-->
+
+        <!-- BACKGROUND COLOR
+      for, the given text we could be able to add the bg,
+       as well,  bg-dark  -->
+
+        <!--DISMISSABLE ALERT
+ this feature is like adding the close option to the alert bar mostly used hen we are successfully filled the form
+
+-->
+
+<form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="registerno@sastra.ac.in">
+    </div>
+    <label for="">Enter Your Personal Details</label>
+    <form>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name">
+          </div>
+        </div>
+      </form>
+<br>
+<div class="form-group">
+    <label for="exampleFormControlSelect1">Which Programming Language are you Familiar</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Python</option>
+      <option>Java</option>
+      <option>C++</option>
+      <option>Javascript</option>
+      <option>ALL</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Currently In Which Year</label>
+    <select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Reason Behind To Join</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="btn btn-primary">Submit</div>
+  </form>
+  <br><br><br>
+  <div>
+<footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>© 2020-2023 Sastra, Inc. · <a href="#">Privacy</a> · <a href="#">Sastra Clubs</a></p>
+  </footer>
+  </div>
+    </body>
+
+</html>
